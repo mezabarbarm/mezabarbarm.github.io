@@ -44,19 +44,20 @@ a { color: inherit; }
 .brand {
   text-decoration: none;
 }
-.brand-image {
-  width: 56px;
-  height: 40px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+.brand-product {
+  width: 44px;
+  height: 44px;
+  display: inline-grid;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: var(--surface);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.75rem;
+  line-height: 1;
+  color: var(--ink);
 }
-.brand-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  display: block;
-}
+.brand-product:hover { border-color: var(--muted); }
 .nav { display: flex; align-items: center; gap: 24px; }
 .nav a { text-decoration: none; color: var(--muted); font-size: .94rem; }
 .nav a:hover { color: var(--ink); }
@@ -93,13 +94,7 @@ h1 {
   line-height: 1.25;
 }
 .intro { max-width: 720px; margin: 22px 0 0; color: var(--muted); font-size: 1.05rem; }
-.contact-line {
-  margin: 28px 0 0;
-  color: var(--ink);
-  font-size: .98rem;
-}
-.contact-label { color: var(--muted); }
-.plain-email, .contact-copyable {
+.contact-copyable {
   display: inline-block;
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   font-size: 1rem;
@@ -118,9 +113,9 @@ h1 {
   box-shadow: 0 18px 45px rgba(23, 24, 20, .06);
 }
 .profile-photo {
-  width: 152px;
-  height: 152px;
-  margin-bottom: 26px;
+  width: 118px;
+  height: 118px;
+  margin-bottom: 22px;
   display: block;
   border-radius: 50%;
   object-fit: cover;
@@ -129,7 +124,6 @@ h1 {
 .profile-label { margin: 0; color: var(--muted); font-size: .8rem; text-transform: uppercase; letter-spacing: .08em; }
 .profile-value { margin: 4px 0 0; font-weight: 750; }
 .profile-rule { height: 1px; margin: 20px 0; background: var(--line); }
-.profile-value-email { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: .98rem; user-select: all; }
 
 .section { padding: 90px 0; border-top: 1px solid var(--line); }
 .section.alt { background: var(--surface); }
