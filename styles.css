@@ -123,6 +123,12 @@ h1 {
 }
 .profile-label { margin: 0; color: var(--muted); font-size: .8rem; text-transform: uppercase; letter-spacing: .08em; }
 .profile-value { margin: 4px 0 0; font-weight: 750; }
+.profile-detail {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: .92rem;
+  line-height: 1.55;
+}
 .profile-rule { height: 1px; margin: 20px 0; background: var(--line); }
 
 .section { padding: 90px 0; border-top: 1px solid var(--line); }
