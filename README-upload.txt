@@ -1,10 +1,11 @@
-VERSÃO 3.2 — COMO ATUALIZAR
+VERSÃO 3.3 — COMO ATUALIZAR
 
 Envie/substitua no repositório:
 - index.html
 - pesquisa.html
 - styles.css
 - renan-foto.jpg
+- pasta pdfs/quali-concursos/ (22 PDFs)
 
 Mudanças:
 - removido “Matemática · UESC” do topo;
@@ -15,5 +16,8 @@ Mudanças:
 - removida qualquer nota editorial do tipo “Se você preferir, numa próxima...” ;
 - PDFs agora abrem em nova aba diretamente no visualizador de PDF do navegador, sem passar pela página do arquivo no GitHub.
 - textos de quatro minicursos, apresentados entre 2015 e 2020, agora estão disponíveis diretamente na seção “Minicursos, seminários, etc.”.
+- tese de doutorado adicionada aos textos autorais, com link direto para o PDF oficial da USP;
+- recuperadas as seções de textos para a Quali do ICMC e ensaios para concursos, com 22 PDFs servidos pelo próprio site;
+- adicionada a seção de links úteis com Quiver, Acta Legalicus e Seminário de Coisas Legais.
 
 Observação: o comportamento final de PDFs também depende das preferências do navegador do visitante.

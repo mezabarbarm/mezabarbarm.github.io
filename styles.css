@@ -141,6 +141,7 @@ h1 {
   gap: 24px;
 }
 .section-heading-single { justify-content: flex-start; }
+.section-description { max-width: 700px; margin: 18px 0 0; color: var(--muted); }
 h2 {
   margin: 0;
   font-family: Georgia, "Times New Roman", serif;
@@ -178,6 +179,57 @@ h2 {
 }
 .resource-list li span { color: var(--muted); }
 .section-note { margin: 18px 0 0; color: var(--muted); font-size: .92rem; }
+
+.text-card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+}
+.text-card {
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--bg);
+}
+.text-card-wide { grid-column: 1 / -1; }
+.text-card-kicker {
+  margin: 0 0 10px;
+  color: var(--muted);
+  font-size: .78rem;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.text-card h3 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.55rem;
+  font-weight: 500;
+}
+.text-card .resource-list { margin-top: 18px; }
+.text-card .resource-list li { line-height: 1.45; }
+
+.useful-links-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+}
+.useful-link {
+  min-height: 180px;
+  padding: 26px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 28px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--bg);
+  color: var(--ink);
+  text-decoration: none;
+}
+.useful-link:hover { border-color: var(--accent); }
+.useful-link strong { font-family: Georgia, "Times New Roman", serif; font-size: 1.45rem; font-weight: 500; }
+.useful-link span { color: var(--muted); font-size: .92rem; }
 
 .timeline { border-top: 1px solid var(--line); }
 .timeline-item {
@@ -218,6 +270,7 @@ h2 {
   .hero-grid { grid-template-columns: 1fr; gap: 48px; }
   .profile-card { max-width: 520px; }
   .section-heading, .contact-inner { align-items: flex-start; flex-direction: column; }
+  .useful-links-grid { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 600px) {
@@ -225,6 +278,9 @@ h2 {
   h1 { font-size: clamp(3.1rem, 18vw, 4.8rem); }
   .hero { padding: 52px 0 64px; }
   .section { padding: 68px 0; }
+  .text-card-grid { grid-template-columns: 1fr; }
+  .text-card-wide { grid-column: auto; }
+  .text-card { padding: 22px; }
   .publication, .timeline-item { grid-template-columns: 1fr; gap: 8px; }
   .publication h3 { font-size: 1.35rem; }
   .footer-inner { flex-direction: column; }
