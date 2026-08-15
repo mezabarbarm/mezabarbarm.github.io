@@ -209,28 +209,6 @@ h2 {
 .text-card .resource-list { margin-top: 18px; }
 .text-card .resource-list li { line-height: 1.45; }
 
-.useful-links-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 22px;
-}
-.useful-link {
-  min-height: 180px;
-  padding: 26px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 28px;
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  background: var(--bg);
-  color: var(--ink);
-  text-decoration: none;
-}
-.useful-link:hover { border-color: var(--accent); }
-.useful-link strong { font-family: Georgia, "Times New Roman", serif; font-size: 1.45rem; font-weight: 500; }
-.useful-link span { color: var(--muted); font-size: .92rem; }
-
 .timeline { border-top: 1px solid var(--line); }
 .timeline-item {
   display: grid;
@@ -270,7 +248,6 @@ h2 {
   .hero-grid { grid-template-columns: 1fr; gap: 48px; }
   .profile-card { max-width: 520px; }
   .section-heading, .contact-inner { align-items: flex-start; flex-direction: column; }
-  .useful-links-grid { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 600px) {
