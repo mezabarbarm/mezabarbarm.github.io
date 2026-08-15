@@ -14,5 +14,6 @@ Mudanças:
 - AnalysisZero renomeado para “Um curso fechado e limitado de Análise Real”, com aviso de que está no prelo, aceito pela LF Editorial e que a versão deixará de estar disponível para download em breve;
 - removida qualquer nota editorial do tipo “Se você preferir, numa próxima...” ;
 - PDFs agora abrem em nova aba diretamente no visualizador de PDF do navegador, sem passar pela página do arquivo no GitHub.
+- textos de quatro minicursos, apresentados entre 2015 e 2020, agora estão disponíveis diretamente na seção “Minicursos, seminários, etc.”.
 
 Observação: o comportamento final de PDFs também depende das preferências do navegador do visitante.

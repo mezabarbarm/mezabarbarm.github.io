@@ -189,6 +189,8 @@ h2 {
 }
 .timeline-item > span { color: var(--muted); font-size: .9rem; font-weight: 750; }
 .timeline-item strong { font-family: Georgia, "Times New Roman", serif; font-size: 1.25rem; font-weight: 500; }
+.timeline-item a { color: var(--accent); text-underline-offset: 4px; }
+.timeline-item a:hover { color: var(--ink); }
 .timeline-item p { margin: 5px 0 0; color: var(--muted); }
 
 .contact { padding: 90px 0; background: var(--accent-soft); }
