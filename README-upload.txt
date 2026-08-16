@@ -1,8 +1,10 @@
-VERSÃO 3.3 — COMO ATUALIZAR
+VERSÃO 3.4 — COMO ATUALIZAR
 
 Envie/substitua no repositório:
 - index.html
+- en.html
 - pesquisa.html
+- research.html
 - styles.css
 - renan-foto.jpg
 - pasta pdfs/quali-concursos/ (22 PDFs)
@@ -19,5 +21,6 @@ Mudanças:
 - tese de doutorado adicionada aos textos autorais, com link direto para o PDF oficial da USP;
 - recuperadas as seções de textos para a Quali do ICMC e ensaios para concursos, com 22 PDFs servidos pelo próprio site;
 - adicionada a seção de links úteis com Quiver, Acta Legalicus e Seminário de Coisas Legais.
+- adicionada a versão completa em inglês, com seletor PT/EN e identificação dos textos disponíveis em português.
 
 Observação: o comportamento final de PDFs também depende das preferências do navegador do visitante.
