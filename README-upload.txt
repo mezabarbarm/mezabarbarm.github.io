@@ -12,7 +12,7 @@ Envie/substitua no repositório:
 - styles.css
 - renan-foto.jpg
 - pasta pdfs/quali-concursos/ (22 PDFs)
-- pasta pdfs/orientacoes/ (3 PDFs autorizados)
+- pasta pdfs/orientacoes/ (4 PDFs autorizados)
 
 Mudanças:
 - removido “Matemática · UESC” do topo;
@@ -28,7 +28,7 @@ Mudanças:
 - adicionada a seção de links úteis com Quiver, Acta Legalicus e Seminário de Coisas Legais.
 - adicionada a versão completa em inglês, com seletor PT/EN e identificação dos textos disponíveis em português.
 - novo artigo no arXiv adicionado às listas de publicações recentes e completas, em português e inglês;
-- criadas páginas bilíngues para os trabalhos orientados, com os PDFs autorizados de Samilla Santana, Gabriel França e Rodrigo Monteiro; o trabalho de João Perim permanece listado sem download;
+- criadas páginas bilíngues para os trabalhos orientados, com os PDFs autorizados de João Perim, Samilla Santana, Gabriel França e Rodrigo Monteiro;
 - recuperada do site antigo a galeria externa de estampas e imagens matemáticas, com páginas em português e inglês.
 
 Observação: o comportamento final de PDFs também depende das preferências do navegador do visitante.
