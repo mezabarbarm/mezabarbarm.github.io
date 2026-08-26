@@ -1,4 +1,4 @@
-VERSÃO 3.5 — COMO ATUALIZAR
+VERSÃO 3.6 — COMO ATUALIZAR
 
 Envie/substitua no repositório:
 - index.html
@@ -10,6 +10,7 @@ Envie/substitua no repositório:
 - estampas.html
 - designs.html
 - styles.css
+- mobile-menu.js
 - renan-foto.jpg
 - pasta pdfs/quali-concursos/ (22 PDFs)
 - pasta pdfs/orientacoes/ (4 PDFs autorizados)
@@ -30,5 +31,6 @@ Mudanças:
 - novo artigo no arXiv adicionado às listas de publicações recentes e completas, em português e inglês;
 - criadas páginas bilíngues para os trabalhos orientados, com os PDFs autorizados de João Perim, Samilla Santana, Gabriel França e Rodrigo Monteiro;
 - recuperada do site antigo a galeria externa de estampas e imagens matemáticas, com páginas em português e inglês.
+- adicionada navegação recolhível para celulares e tablets, mantendo o menu completo nas telas maiores e o seletor PT/EN sempre visível.
 
 Observação: o comportamento final de PDFs também depende das preferências do navegador do visitante.
