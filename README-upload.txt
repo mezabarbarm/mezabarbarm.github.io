@@ -1,13 +1,18 @@
-VERSÃO 3.4 — COMO ATUALIZAR
+VERSÃO 3.5 — COMO ATUALIZAR
 
 Envie/substitua no repositório:
 - index.html
 - en.html
 - pesquisa.html
 - research.html
+- orientacoes.html
+- supervised-works.html
+- estampas.html
+- designs.html
 - styles.css
 - renan-foto.jpg
 - pasta pdfs/quali-concursos/ (22 PDFs)
+- pasta pdfs/orientacoes/ (3 PDFs autorizados)
 
 Mudanças:
 - removido “Matemática · UESC” do topo;
@@ -22,5 +27,8 @@ Mudanças:
 - recuperadas as seções de textos para a Quali do ICMC e ensaios para concursos, com 22 PDFs servidos pelo próprio site;
 - adicionada a seção de links úteis com Quiver, Acta Legalicus e Seminário de Coisas Legais.
 - adicionada a versão completa em inglês, com seletor PT/EN e identificação dos textos disponíveis em português.
+- novo artigo no arXiv adicionado às listas de publicações recentes e completas, em português e inglês;
+- criadas páginas bilíngues para os trabalhos orientados, com os PDFs autorizados de Samilla Santana, Gabriel França e Rodrigo Monteiro; o trabalho de João Perim permanece listado sem download;
+- recuperada do site antigo a galeria externa de estampas e imagens matemáticas, com páginas em português e inglês.
 
 Observação: o comportamento final de PDFs também depende das preferências do navegador do visitante.
