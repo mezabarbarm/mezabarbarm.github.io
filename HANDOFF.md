@@ -148,6 +148,18 @@ Manter em bullets separados:
 
 ## Estado no momento deste handoff
 
+### Continuação com Astra — 7 de setembro de 2026
+
+- O alinhamento e este handoff já foram incluídos no commit `0ed354c` (`alinhado`); o estado anterior abaixo é histórico.
+- Ajustes locais posteriores: menus completos em todas as páginas; atalho para o conteúdo, foco de teclado, espaço para o cabeçalho nos destinos e respeito à preferência por movimento reduzido; menu móvel com rolagem em telas baixas.
+- Nome completo ao lado da foto nas páginas iniciais PT/EN, conforme referência do usuário.
+- Ícone de aba com `∏` e metadados de compartilhamento em todas as páginas, reutilizando a foto existente.
+- `scripts/check-links.ps1` e workflow `Conferir links`: verificações locais em pushes/PRs; externas semanalmente ou sob demanda. Instruções no README.
+- O usuário prefere manter a menção de finalista do Jabuti apenas onde já está; não dar destaque adicional.
+- Esses ajustes aguardam revisão, commit e sincronização pelo fluxo habitual do usuário.
+
+### Registro anterior
+
 - Branch local: `main`.
 - Último commit sincronizado antes deste ajuste: `df38f56` (`celular interface + outras coisas`).
 - `origin/main` estava no mesmo commit antes da alteração de alinhamento.

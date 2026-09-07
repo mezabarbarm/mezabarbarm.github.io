@@ -1,0 +1,26 @@
+name: Conferir links
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: '20 12 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Conferir arquivos e ancoras locais
+        shell: pwsh
+        run: ./scripts/check-links.ps1
+      - name: Conferir enderecos externos semanalmente ou sob demanda
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        shell: pwsh
+        run: ./scripts/check-links.ps1 -External
