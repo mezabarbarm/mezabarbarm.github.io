@@ -1,4 +1,4 @@
-VERSÃO 3.6 — COMO ATUALIZAR
+VERSÃO 3.7 — COMO ATUALIZAR
 
 Envie/substitua no repositório:
 - index.html
@@ -32,5 +32,6 @@ Mudanças:
 - criadas páginas bilíngues para os trabalhos orientados, com os PDFs autorizados de João Perim, Samilla Santana, Gabriel França e Rodrigo Monteiro;
 - recuperada do site antigo a galeria externa de estampas e imagens matemáticas, com páginas em português e inglês.
 - adicionada navegação recolhível para celulares e tablets, mantendo o menu completo nas telas maiores e o seletor PT/EN sempre visível.
+- alinhado o topo do título principal ao topo do cartão da foto nas versões em português e inglês.
 
 Observação: o comportamento final de PDFs também depende das preferências do navegador do visitante.
