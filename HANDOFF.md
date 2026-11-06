@@ -78,6 +78,7 @@ Na página inicial, o herói tem duas colunas: título e introdução à esquerd
 - Na versão inglesa, indicar textos disponíveis apenas em português com `[in Portuguese]`.
 - Na versão portuguesa, não é necessário avisar quando um texto estiver em inglês.
 - O nome da seção de produção textual é **Livros e afins** / **Books and related texts**.
+- Dentro dela, os subtítulos são **Livros publicados** e **Outros textões** / **Published books** e **Other writings**.
 - O título principal é **Página (séria) do Renan** / **Renan's (serious) page**.
 - Não restaurar o antigo subtítulo “Ensino, pesquisa...” no topo.
 - Links para PDFs devem abrir em nova aba com `target="_blank"` e `rel="noopener noreferrer"`.
@@ -103,9 +104,10 @@ Na página inicial, o herói tem duas colunas: título e introdução à esquerd
 
 ### Livros e afins
 
-- **Teoria dos Conjuntos: uma Introdução Maliciosa** aponta para a editora e registra a condição de finalista do Prêmio Jabuti Acadêmico 2026.
+- **Teoria dos Conjuntos: uma Introdução Maliciosa** foi publicado em 2025, aponta para a editora e registra a condição de finalista do Prêmio Jabuti Acadêmico 2026.
 - **Fundamentos de Topologia Geral** e **As aventuras de Alice no país das convergências** têm PDFs públicos.
 - O PDF de Alice aponta para a branch `main` de `Fund_Top_Geral` via `raw.githack.com`, com abertura direta no navegador. Esse endereço busca as atualizações do repositório com cache curto; após atualizações futuras, pode haver uma pequena demora até a versão nova aparecer.
+- O texto de Alice está identificado como “possivelmente no prelo”, conforme a formulação cautelosa pedida pelo usuário.
 - **Um curso fechado e limitado de Análise Real** foi publicado pela LF Editorial em 2026, na coleção Textuniversitários; o título nas páginas PT/EN aponta para a página oficial da editora. Seu PDF foi deliberadamente retirado e não deve ser restaurado sem pedido explícito.
 - A tese de doutorado **Selection principles in hyperspaces** aponta para o PDF oficial da USP.
 

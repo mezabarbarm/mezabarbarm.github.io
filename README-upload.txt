@@ -1,4 +1,4 @@
-VERSÃO 3.8 — COMO ATUALIZAR
+VERSÃO 3.9 — COMO ATUALIZAR
 
 Envie/substitua no repositório:
 - index.html
@@ -21,6 +21,7 @@ Mudanças:
 - removidas eventuais legendas menores redundantes de Disciplinas, Minicursos e Contato;
 - AliceBook renomeado para “As aventuras de Alice no país das convergências”, com link direto que acompanha as atualizações do repositório;
 - “Um curso fechado e limitado de Análise Real” foi publicado pela LF Editorial; o título aponta para a página da editora e o PDF continua indisponível;
+- a seção “Livros e afins” foi dividida em “Livros publicados” e “Outros textões”, com equivalentes em inglês;
 - removida qualquer nota editorial do tipo “Se você preferir, numa próxima...” ;
 - PDFs agora abrem em nova aba diretamente no visualizador de PDF do navegador, sem passar pela página do arquivo no GitHub.
 - textos de cinco minicursos, apresentados entre 2015 e 2026, agora estão disponíveis diretamente na seção “Minicursos, seminários, etc.”.
