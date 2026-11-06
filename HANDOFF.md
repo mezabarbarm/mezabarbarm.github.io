@@ -105,7 +105,8 @@ Na página inicial, o herói tem duas colunas: título e introdução à esquerd
 
 - **Teoria dos Conjuntos: uma Introdução Maliciosa** aponta para a editora e registra a condição de finalista do Prêmio Jabuti Acadêmico 2026.
 - **Fundamentos de Topologia Geral** e **As aventuras de Alice no país das convergências** têm PDFs públicos.
-- **Um curso fechado e limitado de Análise Real** permanece listado como obra no prelo, mas seu PDF foi deliberadamente retirado e não deve ser restaurado sem pedido explícito.
+- O PDF de Alice aponta para a branch `main` de `Fund_Top_Geral` via `raw.githack.com`, com abertura direta no navegador. Esse endereço busca as atualizações do repositório com cache curto; após atualizações futuras, pode haver uma pequena demora até a versão nova aparecer.
+- **Um curso fechado e limitado de Análise Real** foi publicado pela LF Editorial em 2026, na coleção Textuniversitários; o título nas páginas PT/EN aponta para a página oficial da editora. Seu PDF foi deliberadamente retirado e não deve ser restaurado sem pedido explícito.
 - A tese de doutorado **Selection principles in hyperspaces** aponta para o PDF oficial da USP.
 
 ### Qualificação, concursos e minicursos
